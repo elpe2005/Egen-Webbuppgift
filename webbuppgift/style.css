@@ -34,10 +34,10 @@ table,th,td{
     border:2px solid black;
     border-collapse: collapse;
     width:50%;
-    height:20%;
+    text-align: center;
 }
 footer{
-    color: yellow;
+    color: crimson;
 }
 .lol{
     width:50%;
