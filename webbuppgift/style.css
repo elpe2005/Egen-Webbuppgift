@@ -10,6 +10,23 @@ body{
     background-color:gray;
     color:white;
 }
+header{
+    grid-area: header;
+    font-family: 'Times New Roman'; 
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+section{
+    grid-area: section;
+}
+footer{
+    grid-area: footer;
+    color: lightgreen;
+}
 a:link {text-decoration:none;}
 a:visited, a { 
     text-decoration: none; 
@@ -17,11 +34,11 @@ a:visited, a {
 a:hover { text-decoration: none; color:White; }
 a:active { text-decoration: none; color:red; }
 .teknikum{
-    width:100%;
+    width:40%;
 }
 
 img{
-    width: 50%;
+    width: 25%;
 }
 nav>ul{
     display: grid;
@@ -36,14 +53,14 @@ table,th,td{
     width:50%;
     text-align: center;
 }
-footer{
-    color: crimson;
-}
 .lol{
-    width:50%;
+    width:40%;
 }
-header{
-    font-family: 'Times New Roman';
+tr:nth-child(even){
+    background-color:red;
+}
+tr:nth-child(odd){
+    background-color:black;
 }
 
 
