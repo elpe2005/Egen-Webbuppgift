@@ -60,7 +60,7 @@ tr:nth-child(even){ /* Här har jag zebra stripat en tabell och använt en pseud
     background-color:red; /* Vill att en av färgerna är röd */
 }
 tr:nth-child(odd){ /* Här har jag zebra stripat en tabell och använt en pseudo klasselektor */
-    background-color:black; /* vill att en av färgerna är svart */
+    background-color:black; /* vill att en av färgerna är svart på tabellen */
 }
 aside{
     grid-area: aside;
