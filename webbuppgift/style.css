@@ -1,12 +1,13 @@
 body{ /* Hur själva designen på hela sidan ska vara */
     display: grid; /* Bestämmer att det ska vara grid format */
-    grid-template-columns:1fr 1fr; /* Det kommer vara 2 kolumner */
-    grid-template-rows:80px auto 50px; /* Hur stora raderna kommer vara */
+    grid-template-columns:1fr; /* Det kommer vara 2 kolumner */
+    grid-template-rows:80px 50px auto auto 50px; /* Hur stora raderna kommer vara */
     grid-template-areas: 
-    "header header"
-    "main main"
-    "nav nav"
-    "footer footer"; /* grid template areas nämner jag bara vilka areas som finns */
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer"; /* grid template areas nämner jag bara vilka areas som finns */
     background-color:gray; /* Vilken bakgrundsfärg sidorna kommer att ha */
     color:white; /* Vilken färg texten kommer att vara */
 }
@@ -60,6 +61,12 @@ tr:nth-child(even){ /* Här har jag zebra stripat en tabell och använt en pseud
 }
 tr:nth-child(odd){ /* Här har jag zebra stripat en tabell och använt en pseudo klasselektor */
     background-color:black; /* vill att en av färgerna är svart */
+}
+aside{
+    grid-area: aside;
+}
+.teknik{
+    width: 30%
 }
 
 
